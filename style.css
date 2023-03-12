@@ -116,13 +116,18 @@ html {
 
 .roof-image {
   position: absolute;
-  top: 105%;
-  left: 0;
+  top: -7%;
+  width: 100%;
+}
+
+.roof-image-and-content {
+  position: relative;
 }
 
 .image-and-content {
   background: #f8f8fe;
   margin-top: 100px;
+  padding-bottom: 80px;
 }
 
 .image2 {
@@ -235,7 +240,7 @@ html {
 
 .lightblue-div {
   background-color: #575988;
-  margin-top: 81px;
+  margin-top: 0px;
   padding-bottom: 71px;
 }
 
@@ -287,6 +292,10 @@ html {
   border-radius: 1.5px;
   margin-top: 8px;
   margin-left: 66px;
+}
+
+.button2:hover {
+  background-color: #6c9bff;
 }
 
 .starting-text2 {

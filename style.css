@@ -13,8 +13,8 @@ html {
   overflow-x: hidden;
 }
 
-#main {
-  padding: 24px;
+.roof-image-deskt {
+  display: none;
 }
 
 .heading-logo {
@@ -24,6 +24,7 @@ html {
 .logo-and-first-line {
   justify-content: space-between;
   display: flex;
+  padding: 24px;
 }
 
 .first-line {
@@ -38,20 +39,19 @@ html {
   line-height: 14px;
   color: #07043b;
   margin-left: 24px;
-}
-
-.sign-in {
-  width: 38px;
+  cursor: pointer;
 }
 
 .first-image {
   width: 100%;
   margin-top: 100px;
+  padding: 24px;
 }
 
 .content {
   margin-top: 40px;
   text-align: center;
+  padding: 24px;
 }
 
 .motto {
@@ -99,6 +99,11 @@ html {
   border-radius: 3px;
   margin-top: 16px;
   padding: 12px 113px;
+  cursor: pointer;
+}
+
+.button1:hover {
+  background-color: #6c9bff;
 }
 
 .starting-text1 {
@@ -107,19 +112,459 @@ html {
   font-size: 14px;
   line-height: 16px;
   color: #ffffff;
-  cursor: pointer;
 }
 
 .roof-image {
   position: absolute;
-  top: 88%;
+  top: 105%;
   left: 0;
 }
 
 .image-and-content {
   background: #f8f8fe;
+  margin-top: 100px;
 }
 
 .image2 {
   width: 100%;
+  padding: 27px;
+}
+
+.motivation-phrase {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #07043b;
+  margin-top: 65px;
+}
+
+.motivation-description {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #615f7e;
+  padding: 24px;
+}
+
+.below {
+  padding-top: 0px;
+}
+
+.text-and-arrow {
+  padding: 10px 0;
+  margin: 0 auto;
+  align-items: center;
+  width: 130px;
+  display: flex;
+  border-bottom: 2px solid #3da08f;
+  cursor: pointer;
+}
+
+.fylo-example {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 16px;
+  color: #3da08f;
+}
+
+.fylo-example:hover {
+  color: #71dfcc;
+}
+
+.arrow {
+  margin-left: 10px;
+}
+
+.white-div {
+  margin-left: 48px;
+  margin-top: 40px;
+  margin-right: 48px;
+  padding-bottom: 20px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.quotation-marks {
+  padding-top: 20px;
+  padding-left: 25px;
+}
+
+.founder-words {
+  font-family: "Open Sans";
+  width: 248px;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 18px;
+  color: #07043b;
+  padding-left: 25px;
+}
+
+.founder {
+  margin-left: 26px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 13px;
+}
+
+.founder-photo {
+  width: 24px;
+  border-radius: 50%;
+}
+
+.founder-name {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 9px;
+  line-height: 12px;
+  color: #07043b;
+}
+
+.founder-profession {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 6px;
+  line-height: 12px;
+  color: #07043b;
+}
+
+.lightblue-div {
+  background-color: #575988;
+  margin-top: 81px;
+  padding-bottom: 71px;
+}
+
+.access {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-left: 89px;
+  padding-top: 54px;
+}
+
+.access-description {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 16px;
+  margin-left: 48px;
+  margin-right: 48px;
+}
+
+.login-div2 {
+  background-color: #ffffff;
+  width: 240px;
+  height: 32px;
+  margin-top: 24px;
+  margin-left: 66px;
+}
+
+.email-example {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: #c0c0c0;
+  padding-top: 11px;
+  padding-left: 9px;
+}
+
+.button2 {
+  width: 240px;
+  height: 32px;
+  background: #2f65f8;
+  box-shadow: 1px 1px 3px rgba(7, 4, 59, 0.157043);
+  border-radius: 1.5px;
+  margin-top: 8px;
+  margin-left: 66px;
+}
+
+.starting-text2 {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  color: #ffffff;
+  padding: 11px 71px 9px 71px;
+}
+
+.darkblue-div {
+  padding-left: 39px;
+  padding-top: 65px;
+  padding-bottom: 42px;
+  background-color: #07043b;
+}
+
+.phone-line {
+  display: flex;
+  margin-top: 36px;
+}
+
+.mail-line {
+  display: flex;
+  margin-top: 25px;
+}
+
+.phone {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-left: 19px;
+}
+
+.bottom-words {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  margin-top: 16px;
+  cursor: pointer;
+}
+
+.bottom-words:hover {
+  color: #6c9bff;
+}
+
+.about {
+  margin-top: 36px;
+}
+
+.contact {
+  margin-top: 33px;
+}
+
+.icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 33px;
+  padding-left: 100px;
+  cursor: pointer;
+}
+
+.icon:hover {
+  filter: invert(62%) sepia(74%) saturate(3298%) hue-rotate(329deg)
+    brightness(107%) contrast(96%);
+}
+
+@media (min-width: 1440px) {
+  #main {
+    background-color: white;
+  }
+
+  .heading-logo {
+    width: 166px;
+    margin-top: 41px;
+    margin-left: 56px;
+  }
+
+  .first-line-text {
+    font-size: 16px;
+    line-height: 19px;
+    margin-right: 56px;
+  }
+
+  .first-image {
+    position: absolute;
+    left: 766px;
+    top: 60px;
+    width: 640px;
+    height: 474px;
+  }
+
+  .motto {
+    text-align: left;
+    width: 608px;
+    font-size: 40px;
+    line-height: 60px;
+    margin-left: 56px;
+  }
+
+  .motto-description {
+    text-align: left;
+    width: 540px;
+    font-size: 17px;
+    line-height: 24px;
+    margin-left: 56px;
+  }
+
+  .login-and-button {
+    display: flex;
+    gap: 16px;
+  }
+
+  .login-div {
+    width: 320px;
+    margin-left: 56px;
+    height: 45px;
+  }
+
+  .button1 {
+    width: 200px;
+    height: 45px;
+    margin-top: 32px;
+    padding: 15px 61px;
+  }
+
+  .roof-image {
+    display: none;
+  }
+
+  .roof-image-deskt {
+    display: block;
+    width: 100%;
+    margin-top: 200px;
+  }
+
+  .image2 {
+    width: 40%;
+    position: absolute;
+    left: 57%;
+  }
+
+  .image-and-content {
+    margin-top: -67px;
+    padding-bottom: 107px;
+  }
+
+  .motivation-phrase {
+    font-size: 40px;
+    line-height: 47px;
+    margin-left: 80px;
+    text-align: left;
+  }
+
+  .motivation-description {
+    width: 625px;
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 80px;
+    padding-top: 38px;
+    text-align: left;
+  }
+
+  .below {
+    margin-top: -30px;
+  }
+
+  .fylo-example {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .text-and-arrow {
+    width: 180px;
+    padding: 0;
+    margin-left: 80px;
+  }
+
+  .white-div {
+    width: 356px;
+    margin-left: 80px;
+  }
+
+  .quotation-marks {
+    padding-left: 33px;
+  }
+
+  .founder-words {
+    width: 290px;
+    font-size: 13px;
+    line-height: 23px;
+    padding-left: 33px;
+    margin-top: 10px;
+  }
+
+  .founder-photo {
+    width: 32px;
+  }
+
+  .founder-name {
+    font-size: 11px;
+    line-height: 15px;
+  }
+
+  .founder-profession {
+    font-size: 8px;
+    line-height: 15px;
+  }
+
+  .lightblue-div {
+    display: flex;
+    align-items: baseline;
+    margin-top: -1px;
+  }
+
+  .access {
+    font-size: 32px;
+    line-height: 48px;
+    padding-top: 100px;
+    margin-left: 80px;
+  }
+
+  .access-description {
+    width: 500px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 80px;
+    margin-top: 17px;
+  }
+
+  .login-and-button2 {
+    margin-left: 113px;
+  }
+
+  .login-div2 {
+    width: 480px;
+    height: 48px;
+  }
+
+  .email-example {
+    font-size: 12px;
+    line-height: 14px;
+    padding: 16px 224px 18px 22px;
+  }
+
+  .button2 {
+    height: 48px;
+    margin-top: 16px;
+  }
+
+  .starting-text2 {
+    font-size: 14px;
+    padding: 16px 52px;
+  }
+
+  .darkblue-div {
+    display: flex;
+    align-items: center;
+    padding-top: 93px;
+    padding-left: 80px;
+    padding-bottom: 86px;
+  }
+
+  .four-words {
+    margin-left: 222px;
+  }
+
+  .three-words {
+    margin-left: 200px;
+  }
+
+  .icons {
+    margin-left: 185px;
+  }
 }

@@ -71,25 +71,41 @@ html {
   margin-top: 24px;
 }
 
-.login-div {
+.login-input {
+  width: 320px;
   height: 40px;
   border: 0.625px solid #07043b;
   box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
   border-radius: 3px;
   padding-left: 21px;
-  padding-top: 13px;
   margin-top: 32px;
   cursor: pointer;
 }
 
-.enter-email {
-  width: 132px;
-  font-family: "Raleway";
+.error {
+  font-family: "Open Sans";
   font-weight: 400;
   font-size: 12px;
-  line-height: 14px;
+  line-height: 16px;
   letter-spacing: 0.4px;
-  color: #c2c2c2;
+  color: red;
+  text-align: left;
+  margin-top: 3px;
+  margin-left: 4px;
+  display: none;
+}
+
+.thanks {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+  color: green;
+  text-align: left;
+  margin-top: 3px;
+  margin-left: 4px;
+  display: none;
 }
 
 .button1 {
@@ -266,22 +282,13 @@ html {
   margin-right: 48px;
 }
 
-.login-div2 {
+.login-input2 {
   background-color: #ffffff;
   width: 240px;
   height: 32px;
   margin-top: 24px;
   margin-left: 66px;
-}
-
-.email-example {
-  font-family: "Raleway";
-  font-weight: 400;
-  font-size: 10px;
-  line-height: 12px;
-  color: #c0c0c0;
-  padding-top: 11px;
-  padding-left: 9px;
+  padding-left: 10px;
 }
 
 .button2 {
@@ -414,7 +421,7 @@ html {
     gap: 16px;
   }
 
-  .login-div {
+  .login-input {
     width: 320px;
     margin-left: 56px;
     height: 45px;
@@ -425,6 +432,18 @@ html {
     height: 45px;
     margin-top: 32px;
     padding: 15px 61px;
+  }
+
+  .error {
+    font-size: 14px;
+    margin-left: 56px;
+    margin-top: 10px;
+  }
+
+  .thanks {
+    font-size: 14px;
+    margin-left: 56px;
+    margin-top: 10px;
   }
 
   .roof-image {
@@ -536,15 +555,9 @@ html {
     margin-left: 113px;
   }
 
-  .login-div2 {
+  .login-input2 {
     width: 480px;
     height: 48px;
-  }
-
-  .email-example {
-    font-size: 12px;
-    line-height: 14px;
-    padding: 16px 224px 18px 22px;
   }
 
   .button2 {

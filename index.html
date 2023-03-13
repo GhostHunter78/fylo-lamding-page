@@ -31,6 +31,7 @@
       />
       <link rel="stylesheet" href="./style.css" />
       <link rel="stylesheet" href="./reset.css" />
+      <script src="./index.js" defer></script>
       <title>Fylo Landing Page</title>
     </head>
     <body>
@@ -55,10 +56,15 @@
               family, and co-workers.
             </p>
             <div class="login-and-button">
-              <div class="login-div">
-                <p class="enter-email">Enter your email…</p>
+              <div class="input-and-error">
+                <input
+                  class="login-input inputJs"
+                  placeholder="Enter your email..."
+                />
+                <p class="error">Please check your email</p>
+                <p class="thanks">Got it, thanks</p>
               </div>
-              <div class="button1">
+              <div class="button1 buttonJs">
                 <p class="starting-text1">Get Started</p>
               </div>
             </div>
@@ -120,10 +126,11 @@
             </p>
           </div>
           <div class="login-and-button2">
-            <div class="login-div2">
-              <p class="email-example">email@example.com</p>
-            </div>
-            <div class="button2">
+            <input
+              class="login-input2 inputJs"
+              placeholder="email@example.com"
+            />
+            <div class="button2 buttonJs">
               <p class="starting-text2">Get Started For Free</p>
             </div>
           </div>

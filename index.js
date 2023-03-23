@@ -1,29 +1,12 @@
-// "use strict";
-
-// const loginButton = document.querySelector(".login-div");
-// const emailInput = document.querySelector(".enter-email");
-// const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-
-// loginButton.addEventListener("click", function () {
-//   const email = emailInput.value;
-
-//   if (emailRegex.test(email)) {
-//     const user = {
-//       email: email,
-//     };
-//   } else {
-//     loginButton.style.backgroundColor = "red";
-//     loginButton.style.color = "white";
-//     loginButton.textContent = "Please check your email";
-//   }
-// });
 
 const emailInput = document.querySelector(".inputJs");
 const button = document.querySelector(".buttonJs");
 const error = document.querySelector(".error");
 const thanks = document.querySelector(".thanks");
 
-button.addEventListener("click", () => {
+button.addEventListener("click", hello);
+
+function hello() {
   const email = emailInput.value;
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   const valid = emailRegex.test(email);
@@ -37,4 +20,26 @@ button.addEventListener("click", () => {
     error.style.display = "block";
     thanks.style.display = "none";
   }
-});
+}
+
+
+const emailInput2 = document.querySelector ('.inputJs2')
+const button2 = document.querySelector ('.buttonJs2')
+const error2 = document.querySelector(".error2");
+const thanks2 = document.querySelector(".thanks2");
+
+button2.addEventListener("click", () => {
+  const email2 = emailInput2.value
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+  const valid = emailRegex.test(email2)
+
+  if (valid) {
+    error2.style.display= "none"
+    emailInput2.style.borderColor="green"
+    thanks2.style.display="block"
+  } else {
+    error2.style.display="block"
+    thanks2.style.display="none"
+    emailInput2.style.borderColor="red"
+  }
+})

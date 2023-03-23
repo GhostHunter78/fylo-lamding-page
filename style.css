@@ -314,6 +314,32 @@ html {
   padding: 11px 71px 9px 71px;
 }
 
+.error2 {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+  color: red;
+  text-align: left;
+  margin-top: 3px;
+  margin-left: 67px;
+  display: none;
+}
+
+.thanks2 {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+  color: lightgreen;
+  text-align: left;
+  margin-top: 3px;
+  margin-left: 67px;
+  display: none;
+}
+
 .darkblue-div {
   padding-left: 39px;
   padding-top: 65px;
